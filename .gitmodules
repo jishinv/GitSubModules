@@ -1,0 +1,3 @@
+[submodule "GitSubModules/ResearchKit"]
+	path = GitSubModules/ResearchKit
+	url = https://github.com/ResearchKit/ResearchKit

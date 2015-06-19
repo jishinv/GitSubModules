@@ -17,6 +17,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		ED537ADD1B3405470051B5B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED537AD71B3405460051B5B4 /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B183A5951A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
+		ED537ADF1B3405470051B5B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED537AD71B3405460051B5B4 /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86CC8E9A1AC09332001CCD89;
+			remoteInfo = ResearchKitTests;
+		};
 		EDA561F91B33EBE4000154FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EDA561D71B33EBE3000154FE /* Project object */;
@@ -27,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED537AD71B3405460051B5B4 /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = ResearchKit/ResearchKit.xcodeproj; sourceTree = "<group>"; };
 		EDA561DF1B33EBE4000154FE /* GitSubModules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitSubModules.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA561E31B33EBE4000154FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDA561E41B33EBE4000154FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,9 +75,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED537AD81B3405460051B5B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED537ADE1B3405470051B5B4 /* ResearchKit.framework */,
+				ED537AE01B3405470051B5B4 /* ResearchKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED537AE51B34059E0051B5B4 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				ED537AD71B3405460051B5B4 /* ResearchKit.xcodeproj */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
 		EDA561D61B33EBE3000154FE = {
 			isa = PBXGroup;
 			children = (
+				ED537AE51B34059E0051B5B4 /* Framework */,
 				EDA561E11B33EBE4000154FE /* GitSubModules */,
 				EDA561FB1B33EBE4000154FE /* GitSubModulesTests */,
 				EDA561E01B33EBE4000154FE /* Products */,
@@ -186,6 +219,12 @@
 			mainGroup = EDA561D61B33EBE3000154FE;
 			productRefGroup = EDA561E01B33EBE4000154FE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = ED537AD81B3405460051B5B4 /* Products */;
+					ProjectRef = ED537AD71B3405460051B5B4 /* ResearchKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				EDA561DE1B33EBE4000154FE /* GitSubModules */,
@@ -193,6 +232,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		ED537ADE1B3405470051B5B4 /* ResearchKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ResearchKit.framework;
+			remoteRef = ED537ADD1B3405470051B5B4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ED537AE01B3405470051B5B4 /* ResearchKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ResearchKitTests.xctest;
+			remoteRef = ED537ADF1B3405470051B5B4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		EDA561DD1B33EBE4000154FE /* Resources */ = {
@@ -416,6 +472,7 @@
 				EDA562041B33EBE4000154FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDA562051B33EBE4000154FE /* Build configuration list for PBXNativeTarget "GitSubModulesTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +481,7 @@
 				EDA562071B33EBE4000154FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
