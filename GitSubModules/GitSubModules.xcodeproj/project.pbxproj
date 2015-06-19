@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDA561E51B33EBE4000154FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA561E41B33EBE4000154FE /* main.m */; };
+		EDA561E81B33EBE4000154FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA561E71B33EBE4000154FE /* AppDelegate.m */; };
+		EDA561EB1B33EBE4000154FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA561EA1B33EBE4000154FE /* ViewController.m */; };
+		EDA561EE1B33EBE4000154FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA561EC1B33EBE4000154FE /* Main.storyboard */; };
+		EDA561F01B33EBE4000154FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA561EF1B33EBE4000154FE /* Images.xcassets */; };
+		EDA561F31B33EBE4000154FE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA561F11B33EBE4000154FE /* LaunchScreen.xib */; };
+		EDA561FF1B33EBE4000154FE /* GitSubModulesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA561FE1B33EBE4000154FE /* GitSubModulesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDA561F91B33EBE4000154FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDA561D71B33EBE3000154FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA561DE1B33EBE4000154FE;
+			remoteInfo = GitSubModules;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDA561DF1B33EBE4000154FE /* GitSubModules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitSubModules.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA561E31B33EBE4000154FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA561E41B33EBE4000154FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDA561E61B33EBE4000154FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDA561E71B33EBE4000154FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDA561E91B33EBE4000154FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDA561EA1B33EBE4000154FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDA561ED1B33EBE4000154FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDA561EF1B33EBE4000154FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDA561F21B33EBE4000154FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EDA561F81B33EBE4000154FE /* GitSubModulesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitSubModulesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA561FD1B33EBE4000154FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA561FE1B33EBE4000154FE /* GitSubModulesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitSubModulesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDA561DC1B33EBE4000154FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA561F51B33EBE4000154FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDA561D61B33EBE3000154FE = {
+			isa = PBXGroup;
+			children = (
+				EDA561E11B33EBE4000154FE /* GitSubModules */,
+				EDA561FB1B33EBE4000154FE /* GitSubModulesTests */,
+				EDA561E01B33EBE4000154FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDA561E01B33EBE4000154FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDA561DF1B33EBE4000154FE /* GitSubModules.app */,
+				EDA561F81B33EBE4000154FE /* GitSubModulesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDA561E11B33EBE4000154FE /* GitSubModules */ = {
+			isa = PBXGroup;
+			children = (
+				EDA561E61B33EBE4000154FE /* AppDelegate.h */,
+				EDA561E71B33EBE4000154FE /* AppDelegate.m */,
+				EDA561E91B33EBE4000154FE /* ViewController.h */,
+				EDA561EA1B33EBE4000154FE /* ViewController.m */,
+				EDA561EC1B33EBE4000154FE /* Main.storyboard */,
+				EDA561EF1B33EBE4000154FE /* Images.xcassets */,
+				EDA561F11B33EBE4000154FE /* LaunchScreen.xib */,
+				EDA561E21B33EBE4000154FE /* Supporting Files */,
+			);
+			path = GitSubModules;
+			sourceTree = "<group>";
+		};
+		EDA561E21B33EBE4000154FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDA561E31B33EBE4000154FE /* Info.plist */,
+				EDA561E41B33EBE4000154FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDA561FB1B33EBE4000154FE /* GitSubModulesTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDA561FE1B33EBE4000154FE /* GitSubModulesTests.m */,
+				EDA561FC1B33EBE4000154FE /* Supporting Files */,
+			);
+			path = GitSubModulesTests;
+			sourceTree = "<group>";
+		};
+		EDA561FC1B33EBE4000154FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDA561FD1B33EBE4000154FE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDA561DE1B33EBE4000154FE /* GitSubModules */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA562021B33EBE4000154FE /* Build configuration list for PBXNativeTarget "GitSubModules" */;
+			buildPhases = (
+				EDA561DB1B33EBE4000154FE /* Sources */,
+				EDA561DC1B33EBE4000154FE /* Frameworks */,
+				EDA561DD1B33EBE4000154FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitSubModules;
+			productName = GitSubModules;
+			productReference = EDA561DF1B33EBE4000154FE /* GitSubModules.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDA561F71B33EBE4000154FE /* GitSubModulesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA562051B33EBE4000154FE /* Build configuration list for PBXNativeTarget "GitSubModulesTests" */;
+			buildPhases = (
+				EDA561F41B33EBE4000154FE /* Sources */,
+				EDA561F51B33EBE4000154FE /* Frameworks */,
+				EDA561F61B33EBE4000154FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDA561FA1B33EBE4000154FE /* PBXTargetDependency */,
+			);
+			name = GitSubModulesTests;
+			productName = GitSubModulesTests;
+			productReference = EDA561F81B33EBE4000154FE /* GitSubModulesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDA561D71B33EBE3000154FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = com.psl;
+				TargetAttributes = {
+					EDA561DE1B33EBE4000154FE = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					EDA561F71B33EBE4000154FE = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = EDA561DE1B33EBE4000154FE;
+					};
+				};
+			};
+			buildConfigurationList = EDA561DA1B33EBE3000154FE /* Build configuration list for PBXProject "GitSubModules" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDA561D61B33EBE3000154FE;
+			productRefGroup = EDA561E01B33EBE4000154FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDA561DE1B33EBE4000154FE /* GitSubModules */,
+				EDA561F71B33EBE4000154FE /* GitSubModulesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDA561DD1B33EBE4000154FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA561EE1B33EBE4000154FE /* Main.storyboard in Resources */,
+				EDA561F31B33EBE4000154FE /* LaunchScreen.xib in Resources */,
+				EDA561F01B33EBE4000154FE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA561F61B33EBE4000154FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDA561DB1B33EBE4000154FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA561EB1B33EBE4000154FE /* ViewController.m in Sources */,
+				EDA561E81B33EBE4000154FE /* AppDelegate.m in Sources */,
+				EDA561E51B33EBE4000154FE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA561F41B33EBE4000154FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA561FF1B33EBE4000154FE /* GitSubModulesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDA561FA1B33EBE4000154FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDA561DE1B33EBE4000154FE /* GitSubModules */;
+			targetProxy = EDA561F91B33EBE4000154FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDA561EC1B33EBE4000154FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA561ED1B33EBE4000154FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDA561F11B33EBE4000154FE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA561F21B33EBE4000154FE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDA562001B33EBE4000154FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDA562011B33EBE4000154FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDA562031B33EBE4000154FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GitSubModules/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDA562041B33EBE4000154FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GitSubModules/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDA562061B33EBE4000154FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GitSubModulesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitSubModules.app/GitSubModules";
+			};
+			name = Debug;
+		};
+		EDA562071B33EBE4000154FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GitSubModulesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitSubModules.app/GitSubModules";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDA561DA1B33EBE3000154FE /* Build configuration list for PBXProject "GitSubModules" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA562001B33EBE4000154FE /* Debug */,
+				EDA562011B33EBE4000154FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA562021B33EBE4000154FE /* Build configuration list for PBXNativeTarget "GitSubModules" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA562031B33EBE4000154FE /* Debug */,
+				EDA562041B33EBE4000154FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDA562051B33EBE4000154FE /* Build configuration list for PBXNativeTarget "GitSubModulesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA562061B33EBE4000154FE /* Debug */,
+				EDA562071B33EBE4000154FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDA561D71B33EBE3000154FE /* Project object */;
+}
